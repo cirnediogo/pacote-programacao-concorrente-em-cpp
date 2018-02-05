@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>RelogioForm</class>
+ <widget class="QDialog" name="RelogioForm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>266</width>
+    <height>90</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>RelogioForm</string>
+  </property>
+  <widget class="QLCDNumber" name="lcdNumber_hora">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>20</y>
+     <width>64</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="midLineWidth">
+    <number>2</number>
+   </property>
+   <property name="numDigits">
+    <number>2</number>
+   </property>
+   <property name="digitCount" stdset="0">
+    <number>2</number>
+   </property>
+  </widget>
+  <widget class="QLCDNumber" name="lcdNumber_min">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>20</y>
+     <width>64</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::Box</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <property name="lineWidth">
+    <number>1</number>
+   </property>
+   <property name="midLineWidth">
+    <number>2</number>
+   </property>
+   <property name="smallDecimalPoint">
+    <bool>false</bool>
+   </property>
+   <property name="numDigits">
+    <number>2</number>
+   </property>
+  </widget>
+  <widget class="QLCDNumber" name="lcdNumber_seg">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>20</y>
+     <width>64</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="mouseTracking">
+    <bool>false</bool>
+   </property>
+   <property name="midLineWidth">
+    <number>2</number>
+   </property>
+   <property name="numDigits">
+    <number>2</number>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

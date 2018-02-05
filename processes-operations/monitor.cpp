@@ -1,0 +1,1 @@
+#include <stdlib.h>#include <stdio.h>#include <unistd.h>int main (){ printf("Rodando o comando ps com system: Inicio \n"); // system ("ps -ax"); while (1) {    system ("clear"); sleep(1); system ("ps -auxf &"); } printf("Rodando o comando ps com system: Fim \n"); return 0;}

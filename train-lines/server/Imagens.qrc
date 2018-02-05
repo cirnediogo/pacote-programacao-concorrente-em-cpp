@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>trem.png</file>
+        <file>trilhos.png</file>
+        <file>bola.png</file>
+    </qresource>
+</RCC>
